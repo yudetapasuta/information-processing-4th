@@ -1,5 +1,5 @@
 html {
-  font-family: "Hiragino Sans", sans-serif;
+  font-family:"Yu Gothic","游ゴシック",YuGothic,"游ゴシック体";
   line-height: 1.5;
   color: #333 ;
   background-color: #5f5f5;
@@ -31,8 +31,8 @@ h2{
 }
 
 p{
-  font-size: 15px;
-  margin-bottom: 15px;
+  font-size: 18px;
+  margin-bottom: 18px;
   line-height: 1.8;
 }
 
@@ -43,7 +43,7 @@ ul,ol {
 
 li {
   margin-bottom: 8px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 table{
@@ -51,11 +51,11 @@ table{
   border-collapse: collapse;
   margin: 20px 0;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 4px gray;
 }
 
 table th {
-  background-color: #1a5490;
+  background-color: #2aafb8;
   color: #fff;
   padding: 12px;
   text-align: left;
@@ -78,16 +78,44 @@ nav {
   border-bottom: 1px solid #ccc;
 }
 
-nav a {
-  color: #1a5490;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
+nav{
+border-bottom: 5px solid #ccc;
+position: relative;
 }
-
-nav a:hover {
-  color: #0d3a6b;
-  text-decoration: underline;
+nav ul{
+position: absolute;
+left:10%;
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 80%;
+text-align: center;
+}
+nav ul li{
+display: table-cell;
+min-width: 50px;
+}
+nav ul li a{
+display: block;
+width: 100%;
+height: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+}
+nav ul li.current{
+font-weight: bold;
+border-top: 5px solid #00B0F0;
+}
+nav ul li.current a{
+color: #00B0F0;
+}
+nav ul li a:hover{
+color: #0089BB;
+background-color: #FBFBDD;
+}
+nav ul li:hover{
+border-top: 5px solid #F8E750;
 }
 
 a {
