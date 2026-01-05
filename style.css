@@ -79,14 +79,14 @@ nav {
 }
 
 nav a {
-  color: #1a5490;
+  color: #1a905b;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #0d3a6b;
+  color: #1a905b;
   text-decoration: underline;
 }
 
